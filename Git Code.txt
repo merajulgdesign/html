@@ -5,7 +5,7 @@ echo "# html" >> README.md
   git branch -M main
   git remote add origin https://github.com/merajulgdesign/html.git
   git push -u origin main
-
+//Git Second code
 git remote add origin https://github.com/merajulgdesign/html.git
   git branch -M main
   git push -u origin main
