@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #efefd9;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navigation Bar */
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: #151D38;
+    color:#ffffff;
+
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    
+
+}
+.nav-container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+
+}
+.nav-items-container{
+   margin-left:auto;
+   display: flex;
+
+
+}
+.brand{
+    font-size: 48px;
+    font-weight: 700;
+}
+.nav-items{
+    margin-left:24px;
+}
+.nav-items a,
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a:visited{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+/* Profile card Section */
+.profile-card-container{
+    width: 100%;
+    height: 470px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+
+}
+/* .profile-card-container{
+    display: flex;
+    width: 100%;
+    margin:470px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px  5px rgba(0, 0, 0, 0.2);
+} */
+.profile-picture-container{
+    width: 470px;
+   
+}
+.squire-image-container{
+    width: 370px;
+    height: 370px;
+    border: 5px solid #151D38;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.circle-image-container{
+    width: 305px;
+    height: 305px;
+    border: 5px solid #151D38;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left:33px;
+    overflow: hidden;
+}
+/* .circle-image-container img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* Profile image container End */
+/* profile info container Start */
+.profile-info-container{
+    width: 930px ;
+    margin-left: 50px;
+}
+.profile-info{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+
+
+}
+.profile-title{
+    font-size:24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+
+
+}
+.social-link img{
+
+    margin-right: 14px;
+}
+.social-link{
+    margin-top: 40px;
+    display: flex;
+
+
+}
+.skill-chips{
+    display: flex;
+    margin-top: 20px;
+}
+.skill-chip{
+    background-color: #151D38;
+    padding: 9px 7px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 14px;
+    letter-spacing: 0.04em;
+}
+.profile-bio{
+    margin-top: 43px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color:#555555;
+    margin-right: 147px;
+
+}
